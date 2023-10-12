@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    padding: 30px;
+}
+.principale{
+    display: flex;
+    height: 100vh;
+    gap: 20px
+}
+
+.box__one{
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.box__two{
+   
+    width: 50%;
+}
+
+.box__one__image{
+    width: 200px;
+    margin: 10px;
+}
+
+
+.box__one__image img{
+    width: 100%;
+}
+
+.box__two__image{
+    width: 414px;
+    margin: 0px auto;
+}
+
+.box__two__image img{
+    width: 100%;
+}
